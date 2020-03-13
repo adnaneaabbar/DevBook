@@ -10,4 +10,4 @@ mainly the MERN Stack : MongoDB(Atlas), Express.js, React.js and Node.js.
 
 **\$ npm install**
 
-**\$ node server** to start the Database and the server
+**\$ npm run server** to start the Database and the server
