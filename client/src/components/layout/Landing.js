@@ -6,7 +6,7 @@ export const Landing = () => {
         <section className='landing'>
             <div className='dark-overlay'>
                 <div className='landing-inner'>
-                    <h1 className='x-large'>Developer book</h1>
+                    <h1 className='x-large'>DeveloperBook</h1>
                     <p className='lead'>
                         Create a developer profile, share posts and connect with
                         other developers.
