@@ -29,17 +29,3 @@ mainly the MERN Stack : MongoDB(Atlas), Express.js, React.js and Node.js.
 ## Deploy
 
 -   [ ] Deploying to Heroku
-
-# Quick Start
-
-**first clone the repository**
-
-**\$ npm install**
-
-**\$ cd client**
-
-**\$ npm install**
-
-**\$ cd ..**
-
-**\$ npm run dev**
