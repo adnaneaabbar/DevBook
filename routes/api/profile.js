@@ -22,6 +22,7 @@ router.get('/me', auth, async (req, res) => {
                 .status(400)
                 .json({ msg: 'There is no profile for this user.' });
         }
+        res.json(profile);
     } catch (err) {
         console.log(err.message);
         res.status(500).send('Server error.');
