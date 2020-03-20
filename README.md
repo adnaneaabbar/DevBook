@@ -21,8 +21,8 @@ mainly the MERN Stack : MongoDB(Atlas), Express.js, React.js and Node.js.
 ## Frontend
 
 -   [x] Scaffolding the whole app into different Components
--   [ ] Redux Alerts
--   [ ] Authentication and Logout
+-   [x] Redux Alerts
+-   [x] Authentication and Logout
 -   [ ] Profile Dashboards
 -   [ ] Posts, Comments & Likes
 
