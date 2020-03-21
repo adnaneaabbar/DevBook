@@ -17,7 +17,7 @@ export const Login = ({ login, isAuthenticated }) => {
     // onChange handler
     const onChange = e =>
         setFormData({ ...formData, [e.target.name]: e.target.value });
-    // onChange handler
+    // onSubmit handler
     const onSubmit = async e => {
         e.preventDefault();
         login({ email, password });

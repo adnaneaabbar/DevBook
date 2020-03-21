@@ -361,6 +361,9 @@ button {
 }
 
 /* Profile Page */
+.star {
+    color: red;
+}
 .profile-grid {
     display: grid;
     grid-template-areas:
