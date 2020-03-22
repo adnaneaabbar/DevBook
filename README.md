@@ -1,6 +1,6 @@
 # DevBook-Project
 
-Creating a Facebook like social network for developers
+Creating a social network for displaying developers protfolios.
 
 # Tools
 
