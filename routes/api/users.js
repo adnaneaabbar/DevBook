@@ -71,7 +71,7 @@ router.post(
             jwt.sign(
                 payload,
                 config.get('jwtSecret'),
-                { expiresIn: 360000 }, //time will be reduced at deploy
+                { expiresIn: 36000 }, // time will be reduced at deploy
                 (err, token) => {
                     if (err) throw err;
                     res.json({ token });
