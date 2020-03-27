@@ -154,6 +154,8 @@ router.get('/user/:user_id', async (req, res) => {
 // @access      Private
 router.delete('/', auth, async (req, res) => {
     try {
+        // Remove posts
+        await Post.deleteMany({ user: req.user.id });
         // Remove profile
         await Profile.findOneAndRemove({ user: req.user.id });
         // Remove user
@@ -317,7 +319,7 @@ router.delete('/education/:edu_id', auth, async (req, res) => {
         // Get remove index
         const removeIndex = profile.education
             .map(item => item.id)
-            .indexOf(req.params.exp_id);
+            .indexOf(req.params.edu_id);
 
         // Delete
         profile.education.splice(removeIndex, 1);
