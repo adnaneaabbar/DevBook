@@ -78,8 +78,12 @@ const EditProfile = ({
         <Fragment>
             <h1 className='large text-primary'>Edit Your Profile</h1>
             <p className='lead'>
-                <i className='fas fa-user'></i> Fill out the information to
-                setup your Profile !
+                <i className='fas fa-user'></i> Fill out the information to edit
+                your Profile !
+            </p>
+            <p className='lead'>
+                <i className='fas fa-camera'></i> Create a Gravatar account with
+                the same email you used to login to update your avatar
             </p>
             <small>
                 <span className='star'>*</span> = required field
