@@ -227,8 +227,6 @@ export const deleteExperience = id => async dispatch => {
 
         dispatch(setAlert('Experience deleted.', 'success'));
     } catch (err) {
-        const errors = err.response.data.errors;
-
         dispatch({
             type: PROFILE_ERROR,
             payload: {
@@ -251,8 +249,6 @@ export const deleteEducation = id => async dispatch => {
 
         dispatch(setAlert('Education deleted.', 'success'));
     } catch (err) {
-        const errors = err.response.data.errors;
-
         dispatch({
             type: PROFILE_ERROR,
             payload: {
@@ -271,7 +267,7 @@ export const deleteAccount = () => async dispatch => {
         )
     ) {
         try {
-            const res = await axios.delete('/api/profile');
+            await axios.delete('/api/profile');
 
             dispatch({
                 type: CLEAR_PROFILE
@@ -282,8 +278,6 @@ export const deleteAccount = () => async dispatch => {
 
             dispatch(setAlert('Your account has been deleted.'));
         } catch (err) {
-            const errors = err.response.data.errors;
-
             dispatch({
                 type: PROFILE_ERROR,
                 payload: {

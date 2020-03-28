@@ -31,14 +31,14 @@ const Education = ({ education, deleteEducation }) => {
 
     return (
         <Fragment>
-            <h2 class='my-2'>Education Credentials</h2>
-            <table class='table'>
+            <h2 className='my-2'>Education Credentials</h2>
+            <table className='table'>
                 <thead>
                     <tr>
                         <th>School</th>
-                        <th class='hide-sm'>Degree</th>
-                        <th class='hide-sm'>Field of Study</th>
-                        <th class='hide-sm'>Years</th>
+                        <th className='hide-sm'>Degree</th>
+                        <th className='hide-sm'>Field of Study</th>
+                        <th className='hide-sm'>Years</th>
                         <th></th>
                     </tr>
                 </thead>
