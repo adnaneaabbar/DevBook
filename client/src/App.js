@@ -9,10 +9,11 @@ import Dashboard from './components/dashboard/Dashboard';
 import PrivateRoute from './components/routing/PrivateRoute';
 import CreateProfile from './components/profileForms/CreateProfile';
 import EditProfile from './components/profileForms/EditProfile';
-import Profiles from './components/profiles/Profiles';
-import Profile from './components/profile/Profile';
 import AddExperience from './components/profileForms/AddExperience';
 import AddEducation from './components/profileForms/AddEducation';
+import Profiles from './components/profiles/Profiles';
+import Profile from './components/profile/Profile';
+import Posts from './components/posts/Posts';
 // Redux
 import { Provider } from 'react-redux';
 import store from './store';
@@ -80,6 +81,11 @@ const App = () => {
                                 exact
                                 path='/add-education'
                                 component={AddEducation}
+                            />
+                            <PrivateRoute
+                                exact
+                                path='/posts'
+                                component={Posts}
                             />
                         </Switch>
                     </section>

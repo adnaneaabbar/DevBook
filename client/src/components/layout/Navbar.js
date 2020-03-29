@@ -8,19 +8,24 @@ export const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
     const authLinks = (
         <ul>
             <li>
-                <Link to='/profiles'>Developers</Link>
+                <Link to='/profiles'>
+                    <i className='fas fa-code'></i> Developers
+                </Link>
+            </li>
+            <li>
+                <Link to='/posts'>
+                    <i className='fas fa-thumbtack'></i> Posts
+                </Link>
             </li>
             <li>
                 <Link to='/dashboard'>
-                    <i className='fas fa-id-card'></i>
-                    {' ' /* space*/}
+                    <i className='fas fa-id-card'></i>{' '}
                     <span className='hide-sm'>Dashboard</span>
                 </Link>
             </li>
             <li>
                 <a onClick={logout} href='#!'>
-                    <i className='fas fa-sign-out-alt'></i>
-                    {' ' /* space*/}
+                    <i className='fas fa-sign-out-alt'></i>{' '}
                     <span className='hide-sm'>Logout</span>
                 </a>
             </li>
@@ -29,13 +34,19 @@ export const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
     const guestLinks = (
         <ul>
             <li>
-                <Link to='/profiles'>Developers</Link>
+                <Link to='/profiles'>
+                    <i className='fas fa-code'></i> Developers
+                </Link>
             </li>
             <li>
-                <Link to='/register'>Register</Link>
+                <Link to='/register'>
+                    <i className='fas fa-user-plus'></i> Register
+                </Link>
             </li>
             <li>
-                <Link to='/login'>Login</Link>
+                <Link to='/login'>
+                    <i className='fas fa-sign-in-alt'></i> Login
+                </Link>
             </li>
         </ul>
     );
