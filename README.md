@@ -24,7 +24,7 @@ mainly the MERN Stack : MongoDB(Atlas), Express.js, React.js and Node.js.
 -   [x] Redux Alerts
 -   [x] Authentication and Logout
 -   [x] Dashboard
--   [ ] Profile display
+-   [X] Profile display
 -   [ ] Posts, Comments & Likes
 
 ## Deploy
