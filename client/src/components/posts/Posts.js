@@ -20,7 +20,7 @@ const Posts = ({ getPosts, post: { posts, loading } }) => {
                 section.
             </p>
             <p className='lead'>
-                Where you can share your thoughts and questions with other
+                Here you can share your thoughts and questions with other
                 Developers !
             </p>
             <div className='posts'>
