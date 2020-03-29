@@ -8,8 +8,8 @@ const PostForm = ({ addPost }) => {
 
     return (
         <div>
-            <div class='post-form'>
-                <div class='bg-primary p'>
+            <div className='post-form'>
+                <div className='bg-primary p'>
                     <h3>
                         Any questions you want to ask or information you want to
                         share ?{' '}
@@ -21,7 +21,7 @@ const PostForm = ({ addPost }) => {
                         addPost({ text });
                         setText('');
                     }}
-                    class='form my-1'
+                    className='form my-1'
                 >
                     <textarea
                         name='text'
@@ -34,7 +34,7 @@ const PostForm = ({ addPost }) => {
                     ></textarea>
                     <input
                         type='submit'
-                        class='btn btn-dark my-1'
+                        className='btn btn-dark my-1'
                         value='Submit'
                     />
                 </form>
