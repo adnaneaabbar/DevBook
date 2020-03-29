@@ -1,6 +1,5 @@
 {
     "mongoURI": "mongodb://adnane123:adnane123@devbookcluster-shard-00-00-mq6lq.mongodb.net:27017,devbookcluster-shard-00-01-mq6lq.mongodb.net:27017,devbookcluster-shard-00-02-mq6lq.mongodb.net:27017/test?ssl=true&replicaSet=DevBookCluster-shard-0&authSource=admin&retryWrites=true&w=majority",
     "jwtSecret": "parzival69",
-    "githubClientId": "d0ebd3db38a9a848146b",
-    "githubSecret": "68b233b3cc760ee1f52d14743e836de88ab652e6"
+    "githubToken": "c0ee94a3d35c723b7499ba7252b03815514e72af"
 }

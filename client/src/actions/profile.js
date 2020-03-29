@@ -4,6 +4,7 @@ import {
     GET_PROFILE,
     GET_PROFILES,
     GET_REPOS,
+    NO_REPOS,
     PROFILE_ERROR,
     UPDATE_PROFILE,
     ACCOUNT_DELETED,
@@ -78,10 +79,10 @@ export const getProfileById = userId => async dispatch => {
     }
 };
 
-// Get Github Repositories
+// Get Github repos
 export const getGithubRepos = username => async dispatch => {
     try {
-        const res = await axios.get(`api/profile/github/${username}`);
+        const res = await axios.get(`/api/profile/github/${username}`);
 
         dispatch({
             type: GET_REPOS,
@@ -89,11 +90,7 @@ export const getGithubRepos = username => async dispatch => {
         });
     } catch (err) {
         dispatch({
-            type: PROFILE_ERROR,
-            payload: {
-                msg: err.response.statusText,
-                status: err.response.status
-            }
+            type: NO_REPOS
         });
     }
 };

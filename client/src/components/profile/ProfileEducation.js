@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Moment from 'react-moment';
-import Profile from './Profile';
 
 const ProfileEducation = ({
     education: { school, degree, fieldofstudy, to, from, description }
