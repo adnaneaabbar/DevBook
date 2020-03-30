@@ -29,4 +29,11 @@ mainly the MERN Stack : MongoDB(Atlas), Express.js, React.js and Node.js.
 
 ## Deploy
 
--   [ ] Deploying to Heroku
+-   [X] Deploying to Heroku
+
+## I encourage you to display your Portfolio in the app : [DevBook](https://devbook-app.herokuapp.com/)
+
+
+Here is a glimpse on the landing page :
+
+![landing](https://user-images.githubusercontent.com/44345798/77872369-bd701700-723e-11ea-8be0-e44959aab70d.PNG)
